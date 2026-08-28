@@ -1,0 +1,24 @@
+--- top level: 1312 blocks
+    method 1 lzss                     85  (6.5%)
+    method 3 lzss + run escape      1227  (93.5%)
+    decode to declared length      1312 of 1312
+    packed                         83063497
+    unpacked                       255251086
+    ratio                          3.07x
+    largest packed block           1015400 bytes  (DAT.BIN#21)
+    smallest packed block          438 bytes  (DAT.BIN#306)
+    blocks that did not shrink     0
+
+bundles recognised among top-level members: 2, holding 68 members
+archives recognised inside decoded blocks:  1, holding 3 members
+
+--- inside bundles, one level down: 51 blocks
+    method 1 lzss                      2  (3.9%)
+    method 3 lzss + run escape        49  (96.1%)
+    decode to declared length      51 of 51
+    packed                         98807
+    unpacked                       321780
+    ratio                          3.26x
+    largest packed block           24750 bytes  (DAT.BIN#23[4])
+    smallest packed block          209 bytes  (DAT.BIN#23[38])
+    blocks that did not shrink     0

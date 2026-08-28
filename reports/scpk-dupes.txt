@@ -1,0 +1,26 @@
+distinct bundle members 2513
+bundle member instances 9917
+bytes stored            378244140
+bytes that are copies   175173412 (46.3%)
+
+SHA-1                                        COPIES         EACH        TOTAL
+212fcb2ccb02dfcd75ebfbf2c95d70f8e1555fe9        695            4         2780
+9ea28e3078ad9bfc3a479d3a48b9a2877f154538        694         5176      3592144
+7150cace5eddaa3245fefe2ea4718f787111bdd7        693         4168      2888424
+a1c6bde9e0edfef77703ca882d84cdd83cfdd7bb        565         9300      5254500
+3469f768e97e7343375bef3be3aac8173cf29352        534         5232      2793888
+eab537101d128c01cd2ff9b5f395fd7fb1b52a86        233        92032     21443456
+432cde7843b23b96d07d869298562286f6fa6d36        218        62760     13681680
+eb013e53f1bad07a8bcca4e45548a85f4ca29797        216        83712     18081792
+df12baa94fe938a313215d2d887c59674d262428        189        65692     12415788
+cee7a6fcfcf00c8cb1fde47824c86df3f83a58f8        181        73648     13330288
+119a66db9791859c8ea54f46d37bd237dc038977        162        72280     11709360
+a72de35ef74ed39d235311882b460b9f0e871a66         75        41004      3075300
+05a5d42a0a20b1f2df6e42f6d78942b6595365bb         75        40612      3045900
+d7ba757084bf631bbfd28b8490b80ffb5d2ecc80         69           12          828
+4791397fb090c2fefc0c7a172f68082bb14d80c2         62         2444       151528
+ec3e16193a56494762f3654c3c925147a1e768bf         57        34432      1962624
+53e3c5bf0c103febfacebaa71e3970f5ef09dc27         52         5720       297440
+5e70d91e83ebaa068bf4389486d5913a9fb5da0f         51        35808      1826208
+42f010d99635d3d35134f57a49f462ec03114765         47        28704      1349088
+8b38aa1af488a8a0a6e01d58a923b6dcd3c573e3         47        40504      1903688

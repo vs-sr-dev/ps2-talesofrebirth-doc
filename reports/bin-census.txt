@@ -1,0 +1,23 @@
+=== MOV.BIN  21 members, 1733591120 bytes
+    MPEG-PS             20 members     1733591120 bytes
+    empty                1 members              0 bytes
+    padding declared by the index: 1200 bytes
+
+=== DAT.BIN  14981 members, 1932057780 bytes
+    SPU-ADPCM        11036 members     1297725472 bytes
+    raw               2160 members      541554894 bytes
+    block:3           1227 members       83912537 bytes
+    empty              359 members              0 bytes
+    zero-lead          112 members        8097695 bytes
+    block:1             85 members         523342 bytes
+    TIM2                 2 members         243840 bytes
+    top-level codec blocks: 83063497 packed -> 255251086 unpacked (3.07x)
+    largest packed block:   1015400 bytes, member 21
+    padding declared by the index: 107404 bytes
+
+=== FLD.BIN  10 members, 819592992 bytes
+    raw                  6 members       81975232 bytes
+    zero-lead            3 members      737617760 bytes
+    empty                1 members              0 bytes
+    padding declared by the index: 224 bytes
+

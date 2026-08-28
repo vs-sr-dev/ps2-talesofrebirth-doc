@@ -1,0 +1,60 @@
+### Routine-aligned comparisons.  Reported for completeness; NOT used as
+### evidence in docs/06 -- on these routines the opcode-sequence measure
+### does not discriminate, and the byte results are superseded by
+### prefix_scan.py, which searches whole executables instead of a window.
+
+== Rebirth method-1 core vs Symphonia 2004 method-1 ==
+the two routines
+  A SLPS_254.50 mips @ 0x0010CEB8
+  B SLPS_254.00 mips @ 0x001C9820
+  instructions compared      70
+  identical words, in place  0 (0.0%)
+  longest identical byte run 6 bytes
+  action sequence            47.1% similar
+
+== Rebirth method-3 core vs Symphonia 2004 method-3 ==
+the two routines
+  A SLPS_254.50 mips @ 0x0010CFD0
+  B SLPS_254.00 mips @ 0x001C93D0
+  instructions compared      95
+  identical words, in place  2 (2.1%)
+  longest identical byte run 6 bytes
+  action sequence            29.5% similar
+
+== Rebirth method-1 core vs Destiny 2 2002 EE decoder ==
+the two routines
+  A SLPS_254.50 mips @ 0x0010CEB8
+  B SLPS_251.72 mips @ 0x0010A1B0
+  instructions compared      70
+  identical words, in place  0 (0.0%)
+  longest identical byte run 6 bytes
+  action sequence            31.4% similar
+
+== CONTROL: Rebirth method-1 core vs an unrelated Symphonia routine ==
+the two routines
+  A SLPS_254.50 mips @ 0x0010CEB8
+  B SLPS_254.00 mips @ 0x001DF090
+  instructions compared      70
+  identical words, in place  0 (0.0%)
+  longest identical byte run 8 bytes (A+268, B+232)
+  action sequence            21.4% similar
+
+== Rebirth EE state machine vs Rebirth IOP state machine ==
+
+A                _work/x/SLPS_254.50 @ 0x0010C8F0
+B                _work/x/BOOT.IRX @ 0x000034D4
+words compared   90
+identical words  0 (0.0%)
+longest identical run 0 words / 0 bytes
+same opcode      7 (7.8%)
+opcode sequence  28.9% similar (ignoring registers and scheduling)
+
+== CONTROL: Rebirth method-3 core vs the first routine in BOOT.IRX ==
+
+A                _work/x/SLPS_254.50 @ 0x0010CFD0
+B                _work/x/BOOT.IRX @ 0x00000000
+words compared   95
+identical words  1 (1.1%)
+longest identical run 1 words / 4 bytes
+same opcode      5 (5.3%)
+opcode sequence  22.1% similar (ignoring registers and scheduling)

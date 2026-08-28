@@ -1,0 +1,16 @@
+SCPK bundles                          744
+THEIRSCE chunks stored raw            0
+THEIRSCE chunks stored compressed     744
+total                                 744
+
+THEIRSCE chunks per bundle:
+     1 chunks   744 bundles
+
+decompressed sizes: min 70  max 52390  median 9560  total 8135814
+
+the literal bytes THEIRSCE, searched in the raw image inside DAT.BIN:
+    occurrences                       829
+    exactly one per member, over 829 members
+    of those members, SCPK bundles    744  (the literal prefix of the compressed chunk)
+    non-bundle members                85
+    first few non-bundle members: [(33, 1162746, 352901), (14765, 53979, 34), (14771, 169133, 34), (14775, 69462, 34), (14777, 43927, 34), (14789, 91678, 34)]

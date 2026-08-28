@@ -1,0 +1,25 @@
+Tales of Rebirth (SLPS-25450) -- where the disc goes
+
+                                            BYTES    SHARE
+MOV.BIN / MPEG-PS                      1733591120   38.45%
+DAT.BIN / SPU-ADPCM                    1297725472   28.78%
+FLD.BIN / zero-lead                     737617760   16.36%
+DAT.BIN / raw                           541554894   12.01%
+DAT.BIN / block:3                        83912537    1.86%
+FLD.BIN / raw                            81975232    1.82%
+DAT.BIN / zero-lead                       8097695    0.18%
+DAT.BIN / block:1                          523342    0.01%
+DAT.BIN / TIM2                             243840    0.01%
+
+MOV.BIN                                1733592320  members     21  index padding     1200  sum     1733592320
+DAT.BIN                                1932165184  members  14981  index padding   107404  sum     1932165184
+FLD.BIN                                 819593216  members     10  index padding      224  sum      819593216
+
+SYSTEM.CNF                                     57  0.0000%
+SLPS_254.50                               1281336  0.0284%
+IOPRP300.IMG                               278305  0.0062%
+BOOT.IRX                                    65428  0.0015%
+
+all seven files                        4486975846 99.5222%
+image                                  4508516352 100.0000%
+not claimed by any file                  21540506  0.4778%

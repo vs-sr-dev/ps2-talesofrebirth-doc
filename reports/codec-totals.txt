@@ -1,0 +1,35 @@
+--- top level, container index
+    method 1 lzss                     85  (6.5%)
+    method 3 lzss + run escape      1227  (93.5%)
+    decode to declared length      1312 of 1312
+    packed / unpacked / ratio      83063497 / 255251086 / 3.073x
+    largest packed block           1015400  (DAT.BIN#21)
+    smallest packed block          438  (DAT.BIN#306)
+    blocks that did not shrink     0
+
+--- inside .BIN bundles
+    method 1 lzss                      2  (3.9%)
+    method 3 lzss + run escape        49  (96.1%)
+    decode to declared length      51 of 51
+    packed / unpacked / ratio      98807 / 321780 / 3.257x
+    largest packed block           24750  (DAT.BIN#23[4])
+    smallest packed block          209  (DAT.BIN#23[38])
+    blocks that did not shrink     0
+
+--- inside SCPK bundles
+    method 1 lzss                    624  (41.9%)
+    method 3 lzss + run escape       864  (58.1%)
+    decode to declared length      1488 of 1488
+    packed / unpacked / ratio      201691293 / 805899102 / 3.996x
+    largest packed block           662862  (DAT.BIN#10258[0])
+    smallest packed block          59  (DAT.BIN#10198[10])
+    blocks that did not shrink     0
+
+=== WHOLE DISC
+    method 1 lzss                    711  (24.9%)
+    method 3 lzss + run escape      2140  (75.1%)
+    decode to declared length      2851 of 2851
+    packed / unpacked / ratio      284853597 / 1061471968 / 3.726x
+    largest packed block           1015400  (DAT.BIN#21)
+    smallest packed block          59  (DAT.BIN#10198[10])
+    blocks that did not shrink     0

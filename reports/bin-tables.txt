@@ -1,0 +1,7 @@
+CONTAINER  INDEX@FILE    ENTRIES      MEMBERS  SENTINEL
+MOV.BIN    0x000E60CC         22           21  1733592320 == MOV.BIN size
+DAT.BIN    0x000D76B0      14982        14981  1932165184 == DAT.BIN size
+FLD.BIN    0x000E612C         11           10  819593216 == FLD.BIN size
+
+index entries are 64-byte-aligned offsets with the member's
+trailing padding packed into the low six bits

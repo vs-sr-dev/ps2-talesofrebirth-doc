@@ -1,0 +1,76 @@
+The executable keeps its section table, and it names every overlay by
+recording the address each one ends at.  .bss ends at 0x002D88D8, which is
+where the overlay region starts; sorting the end markers gives the map.
+
+SECTION                    END ADDR       SIZE  GROUP
+.mnu_boot_end            0x002D8F38             menu
+.mnu_story_end           0x002D9BD0             menu
+.mnu_status_end          0x002DB4A0             menu
+.mnu_grade_end           0x002DB510             menu
+.mnu_custom_end          0x002DC468             menu
+.mnu_tactics_end         0x002DD000             menu
+.mnu_mc_end              0x002DE530             menu
+.mnu_cook_end            0x002DE740             menu
+.mnu_equip_end           0x002E0F20             menu
+.mnu_magic_end           0x002E0FF8             menu
+.mnu_wcustom_end         0x002E3060             menu
+.mnu_item_end            0x002E4598             menu
+.mnu_shop_end            0x002E7180             menu
+.mnu_world_end           0x002E90C0             menu
+.mnu_monster_end         0x002ED038             menu
+.mnu_sound_end           0x002EDBB0             menu
+.mnu_name_end            0x002EF608             menu
+.namco                   0x002EF680             other
+.namco_end               0x002EF680             other
+.title_end               0x002F2860             other
+.ending_end              0x002FBBA0             other
+.minigame2_end           0x0030E9C0             minigame
+.minigame1_end           0x00321CA8             minigame
+.battle_b008_end         0x00358D70             battle
+.battle_b018_end         0x00358D70             battle
+.battle_b025_end         0x00358D70             battle
+.battle_b030_end         0x00358D70             battle
+.battle_b031_end         0x00358D70             battle
+.battle_b026_end         0x00358DF0             battle
+.battle_b017_end         0x00358E70             battle
+.battle_b016_end         0x00358E88             battle
+.battle_b004_end         0x00358E98             battle
+.battle_b009_end         0x00358FC8             battle
+.battle_b012_end         0x00358FE0             battle
+.battle_b027_end         0x00359038             battle
+.battle_b010_end         0x003590A8             battle
+.battle_b029_end         0x003590E8             battle
+.battle_b015_end         0x00359168             battle
+.battle_b022_end         0x00359170             battle
+.battle_b007_end         0x003591A0             battle
+.battle_b020_end         0x00359284             battle
+.battle_b014_end         0x00359288             battle
+.battle_b006_end         0x003592C0             battle
+.battle_b002_end         0x003592D0             battle
+.battle_b003_end         0x003592F0             battle
+.battle_b024_end         0x00359314             battle
+.battle_b023_end         0x003593B8             battle
+.battle_b013_end         0x003593F0             battle
+.battle_b019_end         0x003593F0             battle
+.battle_b005_end         0x003593F8             battle
+.battle_b028_end         0x00359470             battle
+.battle_b021_end         0x00359538             battle
+.battle_b011_end         0x003596E4             battle
+.battle_b001_end         0x00359808             battle
+.battle_end              0x00359808             battle
+.fld_event_re01_end      0x00384010             field
+.fld_event_re04_end      0x00384A40             field
+.fld_event_re05_end      0x00387D20             field
+.fld_event_re02_end      0x00389930             field
+.2dmap_end               0x00389EC0             field
+.fld_event_re03_end      0x0038C7BC             field
+.3dfield_end             0x003913A0             field
+.fld_event_ship_end      0x003913A0             field
+.code_end                0x00391400             other
+
+grouped by the highest end address in each group:
+  battle     32 overlays  ends 0x00358D70 .. 0x00359808  (spread 2712 bytes)
+  field       8 overlays  ends 0x00384010 .. 0x003913A0  (spread 54160 bytes)
+  menu       17 overlays  ends 0x002D8F38 .. 0x002EF608  (spread 91856 bytes)
+  minigame    2 overlays  ends 0x0030E9C0 .. 0x00321CA8  (spread 78568 bytes)
+  other       5 overlays  ends 0x002EF680 .. 0x00391400  (spread 662912 bytes)

@@ -1,0 +1,74 @@
+### The 4078/4079 shortcut on every image of this disc
+
+--- SLPS_254.50
+_work/x/SLPS_254.50, mips, 320334 words scanned
+
+ADDRESS      WORD       FORM        IMM  ROUTINE
+0x0000DA28   0x24020FEE addiu      4078  0x0000D8F0 (+78 words)
+0x0000DA30   0x24020FEF addiu      4079  0x0000D8F0 (+80 words)
+0x0000DCC8   0x24020FEE addiu      4078  0x0000DB54 (+93 words)
+0x0000DCCC   0x24020FEF addiu      4079  0x0000DB54 (+94 words)
+0x0000DDB4   0x24060FEF addiu      4079  0x0000DD6C (+18 words)
+0x0000DEE8   0x24070FEE addiu      4078  0x0000DEB8 (+12 words)
+0x0000E000   0x24080FEF addiu      4079  0x0000DFD0 (+12 words)
+0x000C6548   0x66040FEF daddiu     4079  0x000C64E4 (+25 words)
+
+8 sites
+
+--- IOPRP300.IMG
+_work/x/IOPRP300.IMG, mips, 69576 words scanned
+
+no 4078 or 4079 immediate anywhere in this image.
+by section 7 of the codec specification that is evidence the
+decoder is not present, not merely that it was not found.
+
+--- BOOT.IRX
+_work/x/BOOT.IRX, mips, 16357 words scanned
+
+ADDRESS      WORD       FORM        IMM  ROUTINE
+0x0000340C   0x24020FEE addiu      4078  0x000031B8 (+149 words)
+0x00003420   0x24020FEF addiu      4079  0x000031B8 (+154 words)
+0x00003770   0x24020FEE addiu      4078  0x00003574 (+127 words)
+0x00003784   0x24020FEF addiu      4079  0x00003574 (+132 words)
+0x000038F4   0x24060FEF addiu      4079  0x000038D8 (+7 words)
+
+5 sites
+
+### the same filter on the neighbouring titles, for reference
+
+--- Tales of Symphonia PS2 2004, SLPS_254.00
+_work/x/SLPS_254.00, mips, 894858 words scanned
+
+ADDRESS      WORD       FORM        IMM  ROUTINE
+0x000217E0   0x66100FEF daddiu     4079  0x00021784 (+23 words)
+0x000C956C   0x240B0FEF addiu      4079  0x000C94D0 (+39 words)
+0x000C99BC   0x240B0FEE addiu      4078  0x000C9920 (+39 words)
+0x00142F9C   0x24190FEF addiu      4079  0x00142D5C (+144 words)
+0x00143584   0x24190FEE addiu      4078  0x0014334C (+142 words)
+
+5 sites
+
+--- Tales of Destiny 2 PS2 2002, SLPS_251.72
+_work/x/SLPS_251.72, mips, 318840 words scanned
+
+ADDRESS      WORD       FORM        IMM  ROUTINE
+0x0000B1BC   0x24040FEE addiu      4078  0x0000B0EC (+52 words)
+0x0000B284   0x240B0FEE addiu      4078  0x0000B0EC (+102 words)
+0x0000B374   0x24040FEF addiu      4079  0x0000B368 (+3 words)
+0x0000B43C   0x240B0FEF addiu      4079  0x0000B368 (+53 words)
+0x0003BEE4   0x24020FEE addiu      4078  0x0003BC04 (+184 words)
+0x0003BEF8   0x24020FEF addiu      4079  0x0003BC04 (+189 words)
+0x0003BFC0   0x28A30FEF slti       4079  0x0003BF34 (+35 words)
+0x00096240   0x66040FEF daddiu     4079  0x000961DC (+25 words)
+
+8 sites
+
+--- Tales of Destiny 2 PS2 2002, FILESYS.IRX
+_work/x/FILESYS.IRX, mips, 10171 words scanned
+
+ADDRESS      WORD       FORM        IMM  ROUTINE
+0x0000495C   0x28820FEF slti       4079  0x0000489C (+48 words)
+0x00004DC4   0x24020FEE addiu      4078  0x00004CCC (+62 words)
+0x00004DCC   0x24020FEF addiu      4079  0x00004CCC (+64 words)
+
+3 sites

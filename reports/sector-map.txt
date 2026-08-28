@@ -1,0 +1,22 @@
+FIRST     LAST      SECTORS   WHAT
+0         15        16        <system area>
+16        16        1         <volume descriptor type 1>
+17        17        1         <volume descriptor type 255>
+257       257       1         <path table, L>
+259       259       1         <path table, M>
+273       273       1         SYSTEM.CNF
+274       899       626       SLPS_254.50
+900       1035      136       IOPRP300.IMG
+1036      1067      32        BOOT.IRX
+1068      847548    846481    MOV.BIN
+847549    1790989   943441    DAT.BIN
+1790990   2191181   400192    FLD.BIN
+
+FIRST     LAST      SECTORS   CONTENT
+18        256       239       data: 00424541303101000000000000000000
+258       258       1         data: 01000501000001000000000000000000
+260       272       13        data: 01000000010500010000000000000000
+2191182   2201423   10242     all zero
+
+image      2201424 sectors (4508516352 bytes)
+slack      10495 sectors (0.4767% of the disc)

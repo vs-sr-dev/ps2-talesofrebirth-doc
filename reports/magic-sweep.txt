@@ -1,0 +1,35 @@
+swept 4508516352 bytes of rebirth.iso in 59.2 s
+(4508516352 bytes on disc)
+
+PATTERN                   HITS  FIRST OFFSETS / WHAT IT WOULD MEAN
+MSCF                         0  Microsoft Cabinet header -- 45 per disc on Symphonia GC, 53 on its PS2
+CVMH                         1  0x4F3E70D7
+ROFSBLD                      0  the CVM builder stamp
+SAMPLE_GAME_TITLE            0  CRI's unfilled default, on all nine Symphonia volumes
+PUBLISHER_NAME               0  CRI's other unfilled default
+CRI                          0  any CRI middleware banner
+SCPK                       745  0xA1324F80 0xA137BC40 0xA14262C0 0xA14CA140
+THEIRSCE                   829  0x67E484C5 0xA137AF1A 0xA1426266 0xA14C8786
+TIM2                      3115  0x19ADC0 0x6775E823 0x6775EDDF 0x6775FA1E
+VAGp                         0  headered SPU audio
+\x00\x00\x01º           105826  0x216000 0x21A000 0x21E000 0x222000
+host0:                       2  0x19B2E8 0x1EE098
+hostfs                       0  ditto
+mass:                        0  devkit mass storage
+MW MIPS                      0  Metrowerks compiler stamp -- present in Symphonia PS2
+CodeWarrior                  0  ditto
+GCC                       1193  0x17684CE 0x246B2A5 0x7282C2A 0x9DBE349
+Symphonia                    0  Tales of Symphonia, 2003/2004
+symphonia                    0  ditto, lower case
+destiny                      0  Tales of Destiny, 1997 / Destiny 2, 2002
+DESTINY                      0  ditto, upper case
+TOD2                         3  0x76E1C5AA 0xAC9D23FF 0xACC5478F
+tod2                         0  ditto, lower case
+TOP2                        26  0x7ECF0BA6 0x902C1A0C 0xA140E173 0xA14B737B
+top2                         0  ditto, lower case
+eternia                      0  Tales of Eternia, 2000
+phantasia                    0  Tales of Phantasia, 1995
+Venus                        0  Venus & Braves, shipped whole on the 2002 disc
+rebirth                      0  this game's own name, lower case
+REBIRTH                      0  ditto, upper case
+ToR                         81  0x19B010 0x19B01C 0x19BA6C 0x19BAAC
